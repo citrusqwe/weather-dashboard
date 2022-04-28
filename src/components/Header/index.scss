@@ -1,0 +1,29 @@
+.header {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.header-search {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 8px;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+
+  input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #F5F5F5;
+
+    &::placeholder {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+}
